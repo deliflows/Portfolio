@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="headerNav">
+            <div class="logo">
+                <a href="./about.html">Blee</a>
+            </div>
+            
+             <ul class="nav-list" id="navi-List">
+                <li class="list-item">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="list-item">
+                    <a href="./projects.html">Projects</a>
+                </li>
+                <li class="list-item">
+                    <a href="./about.html">About</a>
+                </li>
+                <li class="list-item">
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vSEpt0bomQDg8W81sDbxbHsDgg1BLNXTGQVnQAxy035GJogAmqubughFVLFRU2rsrfOsLRegWf6YBIn/pub" target="_blank">Resume</a>
+                </li>
+            </ul>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/betty-lee-carter-949660253/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/deliflows" class="fa fa-github" target="_blank"></a>
+                <a href="mailto:bettyleecarter@gmail.com" class="fa fa-envelope" target="_blank"></a>
+            </div>
+            <div class="menu" id="toggle-Button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Clean and creative coding <br> is one step away </h1>
+        <a href="mailto:bettyleecarter@gmail.com">Let's connect -></a>
+    </section>
+    <!-- <section class="arrowRight">
+        <img  src="./images/arrowRight3.png" alt="arrow">
+    </section> -->
+
+    <section class="About-Me">
+        <div class="blurb">
+            <img class="About-Me-Img" src="./images/blee.jpg" alt="Blee">
+            <div class="blurb-text">
+                <h1>Hello</h1>
+                <p>My name is Betty Lee, you can call me Blee.</p>
+                <p>I'm a Full-Stack Web Developer. Learn more <a href="./about.html">about</a> me.</p>
+                <p>Scroll to check out some of my favorite projects and comments from others!</p>
+            </div>
+        </div>
+        <section class="arrowRight">
+            <img  src="./images/acutal-about-arrow.png" alt="arrow">
+        </section>
+
+    </section>
+    <section class="transitionBorder">
+        <div class="arrowLeft">
+            <img  src="./images/Illustration.png" alt="arrow"> 
+        </div>
+        <div class="cool">
+            <h1>Featured Projects</h1>
+            <!-- <img class="cool" src="./images/cool2.png" alt="a drawing of a girl with a thought bubble that says cool"> -->
+            <img class="cool" src="./images/Cool_longline.png" alt="a drawing of a girl with a thought bubble that says cool">
+        </div>
+    </section>
+
+
+    <!-- <section class="border">
+        <p>Featured Projects</p>
+    </section> -->
+
+    <section class="projects">
+        <div class="cards">
+            <div class="card1">
+                <div class="overlay">
+                    <a href="./projects.html"><p class="text">brew: Javascript and API calls</p></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="overlay">
+                    <a href="./projects.html"><p class="text">BLEEP: Designed with Javascript</p></a>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="overlay">
+                    <a href="./projects.html"><p class="text">BJJ Stars: SQL Database</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="border1"></div>
+    </section>
+
+    <section class="brag">
+        <div class="containers">
+            <div class="container">
+                <p class="person">John S.</p>
+                <p class="comment">"They said something really cool about my work."</p>
+            </div>
+            <div class="container">
+                <p class="person">Seth C.</p>
+                <p class="comment">"They said something really cool about my work."</p>
+            </div>
+            <div class="container">
+                <p class="person">Melissa C.</p>
+                <p class="comment">"They said something really cool about my work."</p>
+            </div>
+        </div>
+    </section>
+
+<footer>
+        <p>&copy 2022 by Blee</p>
+</footer>
+
+</body>
+<script>
+    const toggleButton = document.getElementById('toggle-Button');
+    const naviList = document.getElementById('navi-List');
+
+    toggleButton.addEventListener('click', function() {
+        naviList.classList.toggle('active');
+    })
+</script>
+</html>

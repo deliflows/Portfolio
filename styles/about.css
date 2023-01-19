@@ -1,0 +1,137 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(247, 247, 247)
+}
+/* .headerNav {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:'Fredoka', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.list ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family:'Fredoka', sans-serif;
+}
+
+.headerNav .logo {
+    color: black;
+    font-family:'Fredoka One', cursive;
+    font-size: 40px;
+    display: flex;
+    flex-wrap: no-wrap;
+    padding: 5px;
+}
+
+.headerNav .socials {
+    color: black;
+    display: flex;
+    flex-wrap: no-wrap;
+    padding: 5px;
+    margin-right: 60px;
+}
+
+.headerNav a {
+    color: black;
+}
+
+.headerNav .socials a {
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.headerNav a:hover {
+    color: rgb(255, 209, 4);
+} */
+
+.aboutimg {
+    display: flex;
+    justify-content: center;
+}
+.aboutimg img {
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.aboutBlee {
+    font-family: 'Inter', sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(255, 209, 4, .7);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 1px;
+}
+.aboutBlee p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.magicButton a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: auto;
+}
+.magicButton a:hover{
+    color:transparent;
+    transition:500ms ease;
+}
+.magicButton{
+    background-color: rgb(16, 16, 16);
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+.magicmagicButton{
+    display: flex;
+    justify-content: space-evenly;
+}
+.magicButton:hover {
+    background-color: white;
+    border: none;
+}
+
+
+@media all and (max-width: 480px) {
+    .aboutimg img {
+        width: 400px;
+    }
+    .aboutBlee {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .aboutBlee p {
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+}

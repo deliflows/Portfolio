@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">   
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <nav class="headerNav">
+            <div class="logo">
+                <a href="./index.html">Blee</a>
+            </div>
+            
+             <ul class="nav-list" id="navi-List">
+                <li class="list-item">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="list-item">
+                    <a href="./projects.html">Projects</a>
+                </li>
+                <li class="list-item">
+                    <a href="./about.html">About</a>
+                </li>
+                <li class="list-item">
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vSEpt0bomQDg8W81sDbxbHsDgg1BLNXTGQVnQAxy035GJogAmqubughFVLFRU2rsrfOsLRegWf6YBIn/pub" target="_blank">Resume</a>
+                </li>
+            </ul>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/betty-lee-carter-949660253/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/deliflows" class="fa fa-github" target="_blank"></a>
+                <a href="mailto:bettyleecarter@gmail.com" class="fa fa-envelope" target="_blank"></a>
+            </div>
+            <div class="menu" id="toggle-Button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="aboutimg" >
+        <img src="./images/aboutBlee5.png" alt="drawing of blee and cat sitting at a computer">
+    </section>
+    <section class="aboutBlee">
+        <container>
+            <h1>Hey there,</h1>
+            <p>My name is Betty Lee, friends call me Blee.</p>
+            <p>I am a Digital Crafts 2022 Alumna and am fluent in all things Web-Dev: HTML, CSS, Javascript, SQL Databasing, React and Redux.</p> 
+            <p>If we meet on a Zoom call, my cat will be perched upon my shoulders. He acts as Quality Control.</p>
+            <p>I have a diversified background in many fields. I have a degree in Pre-Physical Therapy, fingers in the Craft Beer Community and experience in Relais and Chateaux level client relations.</p>
+            <p>Now that we've met, let's make magic happen!</p>    
+            <div class="magicmagicButton">
+                <button class="magicButton"><a href="mailto:bettyleecarter@gmail.com"> ✨ Click for Magic ✨ </a></button>
+            </div>       
+        </container>
+    </section>
+    <footer class="p-footer"><p>&copy 2022 by Blee</p></footer>
+</body>
+<script>
+    const toggleButton = document.getElementById('toggle-Button');
+    const naviList = document.getElementById('navi-List');
+
+    toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+    })
+</script>
+</html>
